@@ -1,0 +1,13 @@
+{
+    "root": true,
+    "extends": "@thetribe/eslint-config-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "no-return-await": "off"
+    }
+}
